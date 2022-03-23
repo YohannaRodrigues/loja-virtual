@@ -1,0 +1,291 @@
+@import url("https://fonts.googleapis.com/css2?family=Special+Elite&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Emilys+Candy&display=swap");
+
+* {
+  margin: 0;
+}
+
+/*------- HEADER --------*/
+.header--contents {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  height: 60px;
+}
+
+/* ACCESS */
+
+.header--access {
+  background: #eeeeee;
+  width: 100%;
+  height: 30px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.access--box-one {
+  margin-top: 5px;
+  margin-left: 15px;
+}
+
+.access--box-two {
+  margin-top: 5px;
+  margin-right: 15px;
+}
+
+.acess--link {
+  text-decoration: none;
+  color: #333333;
+}
+
+/* SEARCH */
+
+#search1 {
+  margin-top: 20px;
+}
+
+.search--img {
+  width: 20px;
+}
+
+/* LOGO */
+
+.header--logo {
+  display: flex;
+}
+
+.logo--title {
+  font-family: "Special Elite", cursive;
+  font-weight: 600;
+  font-size: 25px;
+  margin: auto;
+  text-decoration: none;
+  margin: auto;
+  color: black;
+}
+
+.logo--img {
+  margin: auto;
+  height: 35px;
+}
+
+/* GAG BUY */
+
+.header--bag-buy {
+  display: flex;
+  position: relative;
+}
+
+.bag-guy--img {
+  width: 35px;
+  height: 35px;
+  margin: auto;
+}
+
+.bag-buy--conter {
+  background: #296040;
+  color: white;
+  width: 15px;
+  height: 15px;
+  border-radius: 10px;
+  margin-top: 29px;
+  margin-left: 18px;
+  padding: 1px;
+  text-align: center;
+  position: absolute;
+}
+
+/* PROMOTION */
+
+.banner--promotion {
+  display: flex;
+  background: #296040;
+  color: white;
+  width: 100%;
+  height: 35px;
+  justify-content: center;
+}
+
+.promotion--text {
+  margin: auto;
+  font-size: 20px;
+}
+
+.promotion--text-detach {
+  font-weight: 600;
+  color: rgb(239, 243, 26);
+}
+
+/* BANER */
+
+.banner--text-image {
+  display: flex;
+  background: #fe8c05;
+}
+
+.banner--text {
+  width: 50%;
+  margin-left: 10%;
+  margin-top: 5%;
+}
+.banner--text-title {
+  font-family: "Special Elite", cursive;
+  letter-spacing: 0.5px;
+  font-size: 50px;
+  line-height: 50px;
+}
+
+.banner--text-p,
+.banner--text-quality {
+  font-weight: 500;
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.banner--image {
+  display: flex;
+  width: 50%;
+  margin-right: 10%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  position: relative;
+}
+
+.banner--image-main {
+  width: 500px;
+  margin-left: 40px;
+}
+
+.banner--image-promotion {
+  display: inline-flex;
+  position: absolute;
+  background: #598f5c;
+  color: white;
+  text-align: center;
+  margin-left: 230px;
+  width: 120px;
+  height: 120px;
+  border-radius: 60px;
+  box-shadow: 5px 5px 6px rgb(0 0 0 / 62%);
+}
+.banner--image-promotion-text {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 12px;
+}
+
+/* PRODUCTION */
+
+.production--title {
+  display: flex;
+  font-family: "Special Elite", cursive;
+  justify-content: center;
+  font-size: 30px;
+  height: 100px;
+}
+
+.production--title-main {
+  margin: auto;
+  border-bottom: solid 2px #fe8c05;
+}
+
+.production--content {
+  display: flex;
+}
+
+.production--phases {
+  margin: 0 10px;
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  margin-bottom: 20px;
+}
+
+.production--number {
+  position: absolute;
+  display: flex;
+  background: #296040;
+  color: white;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  justify-content: center;
+  margin-right: 120px;
+}
+
+.production--img {
+  width: 80px;
+}
+
+.production--text-title {
+  font-family: "Special Elite", cursive;
+  font-weight: 600;
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+.production--text {
+  text-align: center;
+  font-size: 17px;
+  margin: 0 15px;
+}
+
+/* EXPLORE */
+
+.contents--explore {
+  background: #e4e4e4;
+}
+
+.explore--option {
+  display: flex;
+  width: 33%;
+  height: 250px;
+}
+
+.explore--option-content {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 90px;
+  padding-bottom: 20px;
+}
+
+.explore--title-main {
+  display: flex;
+  font-family: "Special Elite", cursive;
+  justify-content: center;
+  font-size: 30px;
+  height: 100px;
+}
+.explore--title--main-p {
+  margin: auto;
+  border-bottom: solid 2px #fe8c05;
+}
+
+.option {
+  display: flex;
+  position: relative;
+  margin: 20px;
+}
+
+.option--img {
+  width: 300px;
+}
+
+.option--title {
+  display: flex;
+  position: absolute;
+  background: #598f5c;
+  height: 35px;
+  width: 80%;
+  margin-top: 190px;
+  margin-left: 25px;
+}
+
+.option--title-p {
+  margin: auto;
+  font-weight: 600;
+  text-decoration: none;
+  color: black;
+}
